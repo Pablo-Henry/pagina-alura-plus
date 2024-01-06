@@ -34,14 +34,15 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     align-items: center;
+    
 }
 
 .container__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 1rem;
+    padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
@@ -60,12 +61,13 @@ body {
 }
 
 .container__titulo{
-    font-size: 2.375rem;
+    font-size: 1.775em;
     font-weight: 700;
 }
 
 .container__imagem{
-    margin: 1em 0 2em 0;
+    margin: 1em 0 1em 0;
+    width: 80%;
 }
 
 .container__caixa{
@@ -83,7 +85,7 @@ body {
 
 .descricao__titulo{
     font-weight: 700;
-    font-size: 3em;
+    font-size: 1.875em;
     margin-bottom: 0.2em;
     color: var(--branco-principal);
 }
@@ -118,11 +120,11 @@ body {
     justify-content: center;
     margin: 5em 0;
     list-style-type: none;
-    gap: 100px;
+    gap: 20px;
 }
 
 .dispositivos__titulo{
-    font-size: 3em;
+    font-size: 1.875em;
     color: var(--branco-principal);
 }
 
@@ -131,7 +133,7 @@ body {
 }
 
 .lista__item{
-    font-size: 2em;
+    font-size: 1em;
     color: var(--branco-principal);
 }
 
@@ -180,5 +182,7 @@ body {
     background-color: var(--branco-principal);
     color: var(--cor-de-fundo)
 }
+
+
 
 
