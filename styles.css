@@ -183,6 +183,36 @@ body {
     color: var(--cor-de-fundo)
 }
 
+@media (min-width: 300px) and (max-width: 1200px) {
+    .container{
+        width: auto;
+    }
+
+    .dispositivos__lista{
+        justify-content: center;
+    }
+
+    .container{
+        grid-template-columns: auto;
+    }
+
+    .quaternario{
+        display: flex;
+        justify-content: center;
+    }
+
+    .terciario{
+        display: flex;
+        justify-content: center;
+        margin: 0 9em
+    }
+
+    .imagem__terciaria{
+        width: 100% auto;
+    }
+
+    }
+
 
 
 
